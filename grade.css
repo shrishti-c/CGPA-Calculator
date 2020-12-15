@@ -1,0 +1,87 @@
+body{
+    background-color: #226a73;
+}
+h1{
+    
+    font-family: 'Langar', cursive;
+    color: rgb(20, 208, 221);
+    letter-spacing: 4px;
+    text-align: center;
+    font-style:italic;
+    font-size: 60px;
+    animation:animated_div 5s 1;
+
+}
+@keyframes animated_div
+{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(20deg);left:0px;}
+50% {transform: rotate(0deg);left:800px;}
+55% {transform: rotate(0deg);left:800px;}
+70% {transform: rotate(0deg);left:800px;}
+}
+
+#subject
+{
+    
+    border: 6px;
+    margin: 0px 500px;
+    width: 500px;
+    height: 500px;
+    background-color:#1d9ba5;
+    box-shadow:  7px 10px 6px rgb(1, 58, 58);
+    
+}
+.sub{
+     float: left;
+     display: inline;
+     margin-top: 10px;
+    padding: 13px;
+    align-self: right;
+    
+}
+input[type=text]
+{   font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 15px;
+    border-bottom: 2px solid rgb(151, 220, 252);
+    width: 200px;
+    height:45px;
+    background:palegreen;
+    text-align: center;
+}
+input[type=text]:hover
+{
+    background-color: rgb(255, 255, 255);
+    height:60px;
+    font: white;
+}
+
+
+#subject input[type=button]{
+    font-family:serif;
+    font-size: 20px;
+    font:white;
+    background-color: rgb(9, 211, 230);
+    width: 160px;
+    height:50px;
+    padding: 10px;
+    margin: 50px 150px;
+    
+}
+#subject input[type=button]:hover
+{
+    background-color: rgb(8, 117, 219);
+    box-shadow: 5px 5px 10px rgb(174, 216, 240);
+    transform: scale(1.2,1.2);
+}
+#cgpa{
+    color: whitesmoke;
+    margin-top: 30px;
+    font-size: 40px;
+    font-style: oblique;
+    text-align: center;
+    padding: 4px;
+}
